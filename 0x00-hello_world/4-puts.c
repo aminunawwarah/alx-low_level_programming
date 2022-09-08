@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-/*
-*main is the starting point of the program.
+/**
+*main - prints a string of text to the console
 *
+*Description: using the main function
+*This program prints the text "Programming is like building a multilingual puzzle
+*Return: 0
 */
-int main(void){
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle\n");
-	
-	return 0;
+	return (0);
 }
