@@ -4,7 +4,7 @@
 *main - prints a string of text to the console
 *
 *Description: using the main function
-*This program prints the text "Programming is like building a
+*This program prints some text
 *multilingual puzzle
 *Return: 0
 */

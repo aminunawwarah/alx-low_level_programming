@@ -3,7 +3,7 @@
 *main - prints a string of text to the console
 *
 *Description: using the main function
-*This program prints the text "with proper grammar,
+*This program prints come text
 *but the outcome is a piece of art,
 *Return: 0
 */
