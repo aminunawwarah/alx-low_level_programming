@@ -8,7 +8,7 @@
 *some of the English alphabets,
 *Return: 0
 */
-int main(0)
+int main(void)
 {
 	char cha;
 
