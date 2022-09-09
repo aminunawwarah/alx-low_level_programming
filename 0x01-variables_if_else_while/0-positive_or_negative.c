@@ -11,9 +11,9 @@
 */
 int main(void)
 {
-	int n;	
+	int n;
+
 	srand(time(0));
-	
 	n = rand() - RAND_MAX / 2;
 	/*check if the value of n*/
 	if (n > 0)
