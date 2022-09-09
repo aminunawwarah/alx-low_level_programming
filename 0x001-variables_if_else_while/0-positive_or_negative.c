@@ -7,26 +7,25 @@
 *
 *Description: using the main function
 *to print "Programming is positive, zero, or negative"
-*Return 0
+*Return: 0
 */
 int main(void)
 {
-	int wholeNumber;
-	
+	int n;
 	srand(time(0));
-	wholeNumber = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/*check if the value of n*/
-	if (wholeNumber > 0)
+	if (n > 0)
 	{
-		printf("%i is positive\n", wholeNumber);
+		printf("%i is positive\n", n);
 	}
-	else if (wholeNumber == 0)
+	else if (n == 0)
 	{
-		printf("%i is zero\n", wholeNumber);
+		printf("%i is zero\n", n);
 	}
-	else if (wholeNumber < 0)
+	else if (n < 0)
 	{
-		printf("%i is negative\n", wholeNumber);
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }

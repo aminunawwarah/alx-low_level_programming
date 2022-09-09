@@ -11,7 +11,6 @@
 int main(void)
 {
 	char cha;
-	
 	for (cha = '0'; cha <= '9'; cha++)
 	{
 		putchar(cha);

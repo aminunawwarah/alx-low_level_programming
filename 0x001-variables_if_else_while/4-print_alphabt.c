@@ -11,7 +11,6 @@
 int main(0)
 {
 	char cha;
-	
 	for (cha = 'a'; cha <= 'z'; cha++)
 	{
 		if (cha != 'e' && cha != 'q')

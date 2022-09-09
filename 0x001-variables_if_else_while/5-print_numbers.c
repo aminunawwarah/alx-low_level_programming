@@ -11,7 +11,6 @@
 int main(void)
 {
 	int loop;
-	
 	for (loop = 0; loop < 10; loop++)
 	{
 		printf("%i", loop);

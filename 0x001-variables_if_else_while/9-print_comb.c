@@ -11,7 +11,6 @@
 int main(void)
 {
 	int characterValue;
-	
 	for (characterValue = 48; characterValue <= 57 characterValue++)
 	{
 		putchar(characterValue);
