@@ -11,6 +11,7 @@
 int main(void)
 {
 	char loopValue;
+
 	for (loopValue = '0'; loopValue <= '9'; loopValue++)
 	{
 		putchar(loopValue);
