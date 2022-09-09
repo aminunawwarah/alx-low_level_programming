@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-	char loopValue;
+	int loopValue;
 
 	for (loopValue = '0'; loopValue <= '9'; loopValue++)
 	{
