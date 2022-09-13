@@ -3,6 +3,7 @@
 
 /**
 *print_to_98 - prints with putchar
+*@n: is a formal parameter.
 *Description: This program prints
 *numbers
 *function
