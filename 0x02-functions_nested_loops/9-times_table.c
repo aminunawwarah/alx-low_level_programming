@@ -15,13 +15,13 @@ void times_table(void)
 
 	for (number = 0; number <= 9; number++)
 	{
-		_putchar(' ');
+		_putchar('0');
 		for (multiple = 1; multiple <= 9; multiple++)
 		{
 			_putchar(',');
 			_putchar(' ');
 			product = number * multiple;
-			if (product <= 0)
+			if (product <= 9)
 			{
 				_putchar(' ');
 			}
