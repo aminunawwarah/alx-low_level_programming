@@ -2,6 +2,8 @@
 
 /**
 *add - prints with putchar
+*@num1: is a formal parameter.
+*@num2: is a formal parameter.
 *Description: This program prints
 *adds two integers
 *function
