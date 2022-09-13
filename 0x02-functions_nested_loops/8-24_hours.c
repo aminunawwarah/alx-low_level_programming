@@ -7,7 +7,7 @@
 *function
 *Return: returns 0
 */
-void jak_bauer(void)
+void jack_bauer(void)
 {
 	int hours = 0;
 	int minutes = 0;
