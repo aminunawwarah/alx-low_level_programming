@@ -2,6 +2,7 @@
 
 /**
 *_isalpha - prints with putchar
+*@c: is a formal parameter.
 *Description: This program prints
 *some characters with putchar
 *function
