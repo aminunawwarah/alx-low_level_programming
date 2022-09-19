@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-*puts -> is the main function
+*puts2 -> is the main function
 *@str: is the formal parameter of the function
 *Return: returns nothing
 */
