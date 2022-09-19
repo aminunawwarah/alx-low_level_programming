@@ -11,6 +11,7 @@ void rev_string(char *s)
 	int i;
 	int length1;
 	int length2;
+
 	length1 = 0;
 	lengtht2 = 0;
 
