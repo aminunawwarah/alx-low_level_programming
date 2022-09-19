@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_str_len -> is the main function
+*_strlen -> is the main function
 *@s: is the formal parameter of the function
 *Return: returns an int
 */
