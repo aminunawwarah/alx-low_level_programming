@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 *puts_half -> is the main function
 *@str: is the formal parameter of the function

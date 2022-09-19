@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *puts -> is the main function
@@ -8,6 +9,7 @@
 void puts2(char *str)
 {
 	int len;
+	int i;
 
 	len = strlen(str);
 
