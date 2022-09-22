@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* *_strncat - the function concatenates strings
-*@src is another parameter of the function
-*@dest is the function parameter
-*@n is another parameter of the function
+*_strncat - the function concatenates strings
+*@src: is another parameter of the function
+*@dest: is the function parameter
+*@n: is another parameter of the function
 *Returns: a pointer
 */
 char *_strncat(char *dest, char *src, int n)

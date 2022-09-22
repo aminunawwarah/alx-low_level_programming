@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-* *_strncpy - the function copies strings
-*@src is the function parameter
-*@n is another parameter of the function
-*Returns: a pointer
+*_strncpy - the function copies strings
+*@src: is the function parameter
+*@dest: is another parameter
+*@n: is another parameter of the function
+*Returns: a dest
 */
 char *_strncpy(char *dest, char *src, int n)
 {
