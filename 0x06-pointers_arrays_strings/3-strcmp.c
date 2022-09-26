@@ -2,8 +2,8 @@
 
 /**
 *_strcmp - the function compares strings
-*@s1 is the function parameter
-*@s2 is another parameter of the function
+*@s1: is the function parameter
+*@s2: is another parameter of the function
 *Returns: an integer
 */
 int _strcmp(char *s1, char *s2)
