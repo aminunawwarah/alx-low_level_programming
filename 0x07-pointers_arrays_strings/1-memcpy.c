@@ -1,22 +1,19 @@
 #include "main.h"
-
 /**
 * *_memcpy - is the function of program
-*@*dest: is a formal parameter
-*@*src: is another formal parameter
-*@n: is another formal parameter
-*Return: dest
+* @*dest: is a formal parameter
+* @*src: is another formal parameter
+* @n: is another formal parameter
+* Return: dest is the returned value
 */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+	unsigned int index = 0;
 
-	for (index = 0; index < n; index++)
+	while (index < n)
 	{
-		destination[index] = source[index];
+		*(dest + index) = *(src + index);
+		index++;
 	}
 	return (dest);
 }

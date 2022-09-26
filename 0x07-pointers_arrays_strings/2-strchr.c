@@ -1,21 +1,25 @@
 #include "main.h"
 
 /**
-* *_strchr - is the function of program
-*@*s: is a formal parameter
-*@c: is another formal parameter
-*Return: end of line is returned
+* _strchr - is the function of program
+* @s: is a formal parameter
+* @c: is another formal parameter
+* Return: 0 is returned
 */
 char *_strchr(char *s, char c)
 {
-	int index;
-
-	for (index = 0; s[index] >= '\0'; index++)
+	while (*s != '\0')
 	{
-		if (s[index] == c)
+		if (*s == c)
 		{
-			return (s + index);
+			return (s);
 		}
+		++s;
 	}
-	return ('\0');
+
+	if (*s == c)
+	{
+		return (s);
+	}
+	return (0);
 }
