@@ -22,11 +22,11 @@ int checkpoint(int index, int length, char *str)
 {
 	if (length > 0)
 	{
-		if (str[index] == s[length])
+		if (str[index] == str[length])
 		{
 			return (checkpoint(index + 1, length - 1, str));
 		}
-		else if (s[index] != s[length])
+		else if (str[index] != str[length])
 		{
 			return (0);
 		}
