@@ -11,7 +11,8 @@ int helperFunction(int num, int pSqrt)
 	{
 		return (pSqrt);
 	}
-	else{
+	else
+	{
 		if ((pSqrt * pSqrt) > num)
 		{
 			return (-1);
@@ -38,4 +39,3 @@ int _sqrt_recursion(int n)
 		return (helperFunction(n, 0));
 	}
 }
-	
