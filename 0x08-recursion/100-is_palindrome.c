@@ -17,6 +17,7 @@ int _length(char *s)
 *@index: array index
 *@length: the length of the string
 *@str: the actual string;
+*checkpoint: returns 1 if succeded
 **/
 int checkpoint(int index, int length, char *str)
 {
@@ -46,5 +47,3 @@ int is_palindrome(char *s)
 {
 	return (checkpoint(0, _length(s) - 1, s));
 }
-
-	
