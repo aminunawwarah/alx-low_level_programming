@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int index;
 	int multiplication;
 
-	muliplication = 1;
+	multiplication = 1;
 
 	if (argc < 3)
 	{
@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 	{
 		multiplication = multiplication * atoi(argv[index]);
 	}
-	printf("%d\n", muliplication);
+	printf("%d\n", multiplication);
 	return;
 }
