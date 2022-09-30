@@ -24,5 +24,5 @@ int main(int argc, char *argv[])
 		multiplication = multiplication * atoi(argv[index]);
 	}
 	printf("%d\n", multiplication);
-	return;
+	return (0);
 }
