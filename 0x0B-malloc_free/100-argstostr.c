@@ -30,8 +30,8 @@ char *argstostr(int ac, char **av)
 		size++;
 		index1++;
 	}
-	arg = malloc((sizeof(char) * size) + 1);
-	if (arg == NULL)
+	args = malloc((sizeof(char) * size) + 1);
+	if (args == NULL)
 	{
 		return (NULL);
 	}
@@ -41,14 +41,14 @@ char *argstostr(int ac, char **av)
 		index2 = 0;
 		while (av[index1][index2])
 		{
-			arg[k] = av[index1][index2];
+			args[k] = av[index1][index2];
 			index2;
 			k++;
 		}
-		arg[k] = '\n';
+		args[k] = '\n';
 		k++;
 		index1++;
 	}
-	arg[k] = '\0';
-	return (arg);
+	args[k] = '\0';
+	return (args);
 }
