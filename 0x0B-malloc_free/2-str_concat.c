@@ -14,29 +14,19 @@ char *str_concat(char *s1, char *s2)
 	char *nstr;
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
 	length1 = 0;
 	while (s1[length1] != '\0')
-	{
 		length1++;
-	}
 	length2 = 0;
 	while (s2[length2] != '\0')
-	{
 		length2++;
-	}
 	size = length1 + length2;
 	nstr = malloc((sizeof(char) * size) + 1);
 	if (nstr == NULL)
-	{
 		return (NULL);
-	}
 	index1 = 0;
 	while (index1 < length1)
 	{
