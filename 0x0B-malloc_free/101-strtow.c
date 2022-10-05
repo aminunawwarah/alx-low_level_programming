@@ -38,19 +38,13 @@ char **strtow(char *str)
 	int index, k = 0, length = 0, words, c = 0, start, end;
 
 	while (*(str + length))
-	{
 		length++;
-	}
 	words = wordnos(str);
 	if (words == 0)
-	{
 		return (NULL);
-	}
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
-	{
 		return (NULL);
-	}
 	for (index = 0; index <= length; index++)
 	{
 		if (str[index] == ' ' || str[index] == '\0')
@@ -60,13 +54,9 @@ char **strtow(char *str)
 				end = index;
 				temp = (char *) malloc(sizeof(char) * (c + 1));
 				if (temp == NULL)
-				{
 					return (NULL);
-				}
 				while (start < end)
-				{
 					*temp++ = str[start++];
-				}
 				*temp = '\0';
 				matrix[k] = temp - c;
 				k++;
@@ -74,9 +64,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-		{
 			start = index;
-		}
 	}
 	matrix[k] = NULL;
 	return (matrix);
