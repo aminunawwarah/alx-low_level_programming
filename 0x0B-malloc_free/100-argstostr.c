@@ -15,9 +15,7 @@ char *argstostr(int ac, char **av)
 	size = 0;
 	k = 0;
 	if (ac == 0 || av == NULL)
-	{
 		return (NULL);
-	}
 	index1 = 0;
 	while (index1 < ac)
 	{
@@ -32,9 +30,7 @@ char *argstostr(int ac, char **av)
 	}
 	args = malloc((sizeof(char) * size) + 1);
 	if (args == NULL)
-	{
 		return (NULL);
-	}
 	index1 = 0;
 	while (index1 < ac)
 	{
