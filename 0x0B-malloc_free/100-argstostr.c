@@ -42,7 +42,7 @@ char *argstostr(int ac, char **av)
 		while (av[index1][index2])
 		{
 			args[k] = av[index1][index2];
-			index2;
+			index2++;
 			k++;
 		}
 		args[k] = '\n';
