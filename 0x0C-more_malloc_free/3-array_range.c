@@ -7,7 +7,7 @@
 *@max: max int number
 *Return: returns a pointer of the allocated memory
 **/
-int *array(int min, int max)
+int *array_range(int min, int max)
 {
 	int index, length;
 	int *a;
