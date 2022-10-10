@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
-*print_dog - displays the dog struct
+*print_dog - shows the dog struct
 *@d: a pointer to the struct
 *Return: returns nothing
 **/
