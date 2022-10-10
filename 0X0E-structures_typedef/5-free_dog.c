@@ -3,7 +3,7 @@
 
 /**
 *free_dog - removes dog from the memory
-*@d: pointer to the dog struct
+*@d: pointer to dog struct
 *Return: returns nothing
 **/
 void free_dog(dog_t *d)
