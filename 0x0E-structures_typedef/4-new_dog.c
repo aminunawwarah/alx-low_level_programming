@@ -13,7 +13,7 @@ int index, length1, length2;
 struct dog *n_dog = NULL;
 
 length1 = 0;
-while (name[length1] != '\O')
+while (name[length1] != '\0')
 	length1;
 length2 = 0;
 while (owner[length2]!= '\0')
