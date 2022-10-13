@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include <stdlib.h
+#include <stdlib.h>
 #include <stdio.h>
 /**
 *print_strings - display text followed by a new line

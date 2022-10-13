@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include <stdlib.h
+#include <stdlib.h>
 #include <stdio.h>
 /**
 *print_all - displays everything
