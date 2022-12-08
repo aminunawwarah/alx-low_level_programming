@@ -2,7 +2,7 @@
 /**
  *delete_dnodeint_at_index- unction that deletes the node at index.
  *@head: a ptr to ptr the listint_t list
- *@index: the node that should be deleted. Index starts at 0
+ *@index:the node that should be deleted. Index starts at 0
  *Return: 1 if it succeeded, -1 if it failed.
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
